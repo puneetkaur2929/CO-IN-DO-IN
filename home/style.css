@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Baloo+Bhaijaan+2:wght@600&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+nav{
+	margin-top: -10px;
+	background-color: white;
+}
+.fn1{
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.fn2{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.fn3{
+	font-family: 'Courgette', cursive;
+}
+.fn4{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease-in-out;
+}
+.underline-animate {
+    background-image: linear-gradient(transparent, transparent), linear-gradient( orange, orange);
+}
+.link-underline:hover {
+    background-size: 100% 2px;
+    background-position: 0 100%
+}
+.line-text {
+	border-bottom: 1px solid #000; 
+	line-height: 0.1em;
+} 
+.line-text span { 
+	background: #fff; 
+	padding: 0 10px; 
+}
+#add-modal {
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+}
+.hover\:bg-orange-500:hover {
+    --bg-opacity: 1;
+    background-color: #ed8936;
+    background-color: rgba(237,137,54,var(--bg-opacity));
+    color: black;
+}
