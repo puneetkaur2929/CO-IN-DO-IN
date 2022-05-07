@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="icon" type="image/x-icon" href="./images//logo.png">
     <title>CO-IN-DO-IN</title>
 </head>
 
@@ -32,13 +32,12 @@
                     Us</a>
             </ul>
             <div class="col-start-10 col-end-12 font-medium flex justify-end items-center">
-            
+
                 <a class="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all fn4"
                     href="./Authentication/login.html" id="signin"> Sign In</a>
-                <button id="signupbtn"
-                    class="font-medium tracking-wide py-2 px-5 sm:px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-orange-500 hover:text-white-500 transition-all hover:shadow-orange fn4">
-                    <a href="./Authentication/signup.html" id="signup"> Sign Up</a> 
-                </button>
+                <button
+                id="signupbtn"class="font-medium tracking-wide py-2 px-5 sm:px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-orange-500 hover:text-white-500 transition-all hover:shadow-orange fn4">
+                    <a href="./Authentication/signup.html" id="signup"> Sign Up</a> </button>
 
             </div>
         </nav>
@@ -260,26 +259,6 @@
             localStorage.removeItem('remember');
             window.location = 'index.html';
 
-    <script>
-        let currentuser = null;
-        let signin = document.getElementById('signin');
-        let signupbtn = document.getElementById('signupbtn');
-        let signup = document.getElementById('signup');
-        function getusername() {
-            let remember = localStorage.getItem('remember');
-            if (remember === 'yes') {
-                currentuser = JSON.parse(localStorage.getItem('user'));
-            }
-            else {
-                currentuser = JSON.parse(sessionStorage.getItem('user'));
-            }
-        }
-        function signout() {
-            sessionStorage.removeItem('user');
-            localStorage.removeItem('user');
-            localStorage.removeItem('remember');
-            window.location = 'index.html';
-
         }
         window.onload = function () {
             getusername();
@@ -295,9 +274,6 @@
             }
         }
     </script>
-
-
-
 </body>
 
 </html>
