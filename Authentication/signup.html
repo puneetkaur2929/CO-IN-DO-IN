@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+   
+        <title>Sign Up</title>
+</head>
+
+<body class="bg-gray-100">
+    <div class="max-w-screen-xl min-h-screen bg-gray-100 text-gray-800 antialiased px-2 py-4 flex flex-col justify-center sm:py-12">
+        <div class="relative py-2 sm:max-w-xl mx-auto text-center">
+            <span class="text-2xl font-semibold">Sign Up</span>
+            <div class="relative mt-4 bg-white shadow-md sm:rounded-lg text-left py-8 px-8">
+                <form action="" id="signupform" method="post">  
+                    <label class="block font-semibold">Registered Name </label>
+                        <input type="text" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-gray-600 rounded-md" id="regname">                     
+                     <label class="block font-semibold">Email</label>
+                        <input type="text" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-gray-600 rounded-md" id="email">
+                        <label class="block font-semibold">State</label>
+                        <select name="state" id="state" class="form-control block mb-3 mt-3 border w-full  px-2 py-2 mt-1">
+                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chandigarh">Chandigarh</option>
+                            <option value="Chhattisgarh">Chhattisgarh</option>
+                            <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                            <option value="Daman and Diu">Daman and Diu</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Lakshadweep">Lakshadweep</option>
+                            <option value="Puducherry">Puducherry</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                            </select>
+                            <label class="block font-semibold">Establishment Year</label>
+                        <input type="year" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-gray-600 rounded-md" id="estab">
+                        <label class="block font-semibold mt-1">Category</label>
+                        <select name="category" id="category" class="form-control block  mb-2 mt-2 border w-full  px-1 py-2 mt-1">
+                            <option value="Private">Private</option>
+                            <option value="Public">Public </option>
+                            </select>
+                        <label class="block mt-5 font-semibold">New Password<label>
+                        <input type="password" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-black-600 rounded-md" id="spass">
+                        <label class="block mt-5 font-semibold">Confirm Password<label>
+                            <input type="password" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-black-600 rounded-md" id="cpass">
+    
+                        <button type="submit" class ="mt-4 bg-orange-500 text-white w-full p-2 rounded-lg" id="signup">Sign Up</button>
+                            <a href="./login.html" class=" text-grey font-light">Already have account?</a>
+                        <h2 class="mt-8 text-center font-light line-text"><span>Or continue with</span></h2>
+                        <div class="mt-6 flex flex-row justify-center">
+                            <div class="mx-2 bg-white-500 border rounded-lg h-10 w-20 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                                <a href="#"><i class="fa-brands fa-google"></i></a>
+                            </div>
+                            <div class="mx-2 bg-white-500 border rounded-lg h-10 w-20 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </div>
+                            <div class="mx-2 bg-white-500 border rounded-lg h-10 w-20 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+     <script type="module"> 
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.0/firebase-app.js";
+//         // TODO: Add SDKs for Firebase products that you want to use
+//         // https://firebase.google.com/docs/web/setup#available-libraries
+      
+//         // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyAwM3VhS3V5wWhbS52R1ijHeMB648icSRM",
+          authDomain: "sign-up-9510a.firebaseapp.com",
+          databaseURL: "https://sign-up-9510a-default-rtdb.firebaseio.com",
+          projectId: "sign-up-9510a",
+          storageBucket: "sign-up-9510a.appspot.com",
+          messagingSenderId: "939437789015",
+          appId: "1:939437789015:web:8b205fd1110714ab83b812"
+        };
+      
+//         // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+      import {getDatabase,ref,set,child,get} from "https://www.gstatic.com/firebasejs/9.8.0/firebase-database.js"
+//         // Initialize Firebase
+       
+        const db=getDatabase(app);
+// // referneces
+
+const regname=document.getElementById('regname');
+const email=document.getElementById('email');
+const state=document.getElementById('state');
+const estab=document.getElementById('estab');
+const spass=document.getElementById('spass');
+const cpass=document.getElementById('cpass');
+const category=document.getElementById('category');
+const signup=document.getElementById('signup');
+const form=document.getElementById('signupform');
+
+form.addEventListener('submit' ,function(e){
+  e.preventDefault();
+  
+})
+
+// // validation
+function isempty(str){
+  return str===null || str.match(/^ *$/)!==null;
+}
+function validation(){
+  let name=/^[a-zA-Z]+$/;
+  let mail=/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
+  let year=/^(19|20)[\d]{2,2}$/;
+  if(isempty(regname.value) ||  isempty(email.value) ||
+  isempty(category.value) ||
+  isempty(estab.value) ||
+  isempty(spass.value) ||
+  isempty(cpass.value) || isempty(state.value) ){
+    alert("All fields are mandatory");
+    return false;
+  }
+  if(!name.test(regname.value)){
+    console.log(regname.value);
+    alert("Name should contain alphabets only");
+    return false;
+  }
+  if(!mail.test(email.value)){
+    alert("Email not valid");
+    return false;
+  }
+  if(!year.test(estab.value)){
+    alert("Enter Establishment year in proper format");
+    return false;
+  }
+  if(spass.value!=cpass.value){
+    alert('Confirmed password differs from password')
+   return false;
+  }
+  return true;
+}
+// register user
+
+function registeruser(){
+ if(!validation()) {
+   return;
+ }
+  const dbref= ref(db);
+  get(child(dbref,"UsersList/"+regname.value)).then((snapshot)=>{
+    if(snapshot.exists()){
+      alert("Account Already Exists");
+    }
+    else{
+      set(ref(db,"UsersList/"+regname.value),
+      {
+        registername: regname.value,
+        email: email.value,
+        nativestate: state.value,
+        yearofestablishment: estab.value,
+        password: cpass.value,
+        category: category.value
+      });
+      
+        alert("Registered succesfully");
+      
+    }
+  });
+
+}
+// submit 
+signup.addEventListener('click',registeruser);
+
+
+      </script>
+</body>
+
+</html>
