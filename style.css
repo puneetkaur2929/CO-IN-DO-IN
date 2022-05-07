@@ -55,3 +55,29 @@ nav{
     background-color: rgba(237,137,54,var(--bg-opacity));
     color: black;
 }
+.bg-image {
+    background-image: url(./images/image7.jfif);
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 120px 0px;
+    position: relative;
+}
+.bg-image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.7);
+}
+.about-header {
+    background-image: url(./images/image6.jpg);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    max-height: 350px;
+}
