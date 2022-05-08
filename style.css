@@ -33,6 +33,9 @@ nav{
 .underline-animate {
     background-image: linear-gradient(transparent, transparent), linear-gradient( orange, orange);
 }
+html{
+    overflow-x:hidden;
+}
 .link-underline:hover {
     background-size: 100% 2px;
     background-position: 0 100%
