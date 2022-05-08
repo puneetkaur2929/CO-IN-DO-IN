@@ -50,7 +50,9 @@ With this endevour they can post their needs at one platform through which citiz
 </div>
 
 ## Usage
-[]
+https://user-images.githubusercontent.com/77191007/167295436-32daa0c0-06e0-4f2a-9eb6-7dbe05956a01.mp4
+
+
 ---
 
 ## TECHNOLOGIES USED
