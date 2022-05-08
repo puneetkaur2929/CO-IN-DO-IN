@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <title>CO-IN-DO-IN</title>
+    <link rel="stylesheet" href="./donate.css">
+</head>
+
+<body>
+
+    <header class="fixed top-0 w-full z-30 bg-white-500 transition-all pt-2 shadow-lg">
+        <nav class="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-4 sm:py-1.5">
+            <div class="col-start-1 col-end-2 flex items-center">
+                <img class="h-16 w-16" src="../images/logo.png" alt="">
+            </div>
+            <ul class="hidden md:flex col-start-4 col-end-8 text-black-500  items-center">
+                <a class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate fn2" href="./index.html">Home</a>
+                <a class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate fn2" href="./about/about.html">About Us</a>
+                <a class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate fn2" href="./donate.html">Donate</a>
+                <a class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 link-underline underline-animate fn2">Contact Us</a>
+            </ul>
+            <div class="col-start-10 col-end-12 font-medium flex justify-end items-center">
+                <a class="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-500 transition-all fn2" id="signin" href="../Authentication/login.html"> Sign In</a>
+                <button class="font-medium tracking-wide py-2 px-5 sm:px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-orange-500 hover:text-white transition-all fn2" id="signupbtn"><a href="../Authentication/signup.html" id="signup"> Sign Up</a> </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="w-full h-screen max-w-screen-xl mt-24 mx-auto">
+        <div class="bg-local w-full h-full" style="background-image: url('../images/image8.png')">
+            <div class="p-20">
+                <h1 class="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal fn1">
+                    Be The Reason <br> Someone Smiles Today!
+                </h1>
+                <p class="text-black-500 mt-4 mb-6 fn3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Deleniti ex perferendis quia ea aperiam laudantium? 
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="max-w-screen-xl mt-40 px-8 xl:px-16 mx-auto">
+        <h2 class="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 mb-8 text-center fn1">You can help lots of people by donating little</h2>
+        <div class="my-8 flex flex-row justify-end">
+            <h3 class="text-3xl font-awesome fn3 underline">NGO's can post the requirements here!</h3>
+            <button id="ngoNeeds" class="font-medium tracking-wide py-2 px-5 mx-12 sm:px-8 border border-orange-500 text-orange-500 bg-white-500 outline-none rounded-l-full rounded-r-full capitalize hover:bg-orange-500 hover:text-white transition-all hover:shadow-orange fn4">Add Needs</button>
+        </div>
+        <div class="needsadded grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 fn3">
+            <div class="w-72 max-w-full border border-gray-300 rounded-sm bg-white">
+                <div class="w-full h-48">
+                    <img src="../images/image6.png" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6">
+                    <h5 class="text-2xl font-medium fn1">Clothes for teenagers</h5>
+                    <p class="mt-2 fn3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore officiis eius similique possimus sint aut quas.
+                    </p>
+                    <h3 class="my-2 text-right text-xl font-semibold fn2">- Smile Foundation</h3>
+                    <div class="mt-4 flex">
+                        <a href="alert.html" class="inline-block rounded-sm font-medium border border-solid cursor-pointer text-center transition-colors duration-200 text-base py-3 px-6 text-white bg-green-400 border-green-400 hover:bg-green-600 hover:border-green-600">
+                            Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-72 max-w-full border border-gray-300 rounded-sm bg-white">
+                <div class="w-full h-48">
+                    <img src="../images/image6.png" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6">
+                    <h5 class="text-2xl font-medium fn1">Pre-school books</h5>
+                    <p class="mt-2 fn3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore officiis eius similique possimus sint aut quas.
+                    </p>
+                    <h3 class="my-2 text-right text-xl font-semibold fn2">- Smile Foundation</h3>
+                    <div class="mt-4 flex">
+                        <a href="alert.html" class="inline-block rounded-sm font-medium border border-solid cursor-pointer text-center transition-colors duration-200 text-base py-3 px-6 text-white bg-green-400 border-green-400 hover:bg-green-600 hover:border-green-600">
+                            Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-72 max-w-full border border-gray-300 rounded-sm bg-white">
+                <div class="w-full h-48">
+                    <img src="../images/image6.png" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6">
+                    <h5 class="text-2xl font-medium fn1">Help for medical treatment</h5>
+                    <p class="mt-2 fn3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore officiis eius similique possimus sint aut quas.
+                    </p>
+                    <h3 class="my-2 text-right text-xl font-semibold fn2">- Smile Foundation</h3>
+                    <div class="mt-4 flex">
+                        <a href="alert.html" class="inline-block rounded-sm font-medium border border-solid cursor-pointer text-center transition-colors duration-200 text-base py-3 px-6 text-white bg-green-400 border-green-400 hover:bg-green-600 hover:border-green-600">
+                            Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-72 max-w-full border border-gray-300 rounded-sm bg-white">
+                <div class="w-full h-48">
+                    <img src="../images/image6.png" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6">
+                    <h5 class="text-2xl font-medium fn1">Donations for brain tumor treatment</h5>
+                    <p class="mt-2 fn3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore officiis eius similique possimus sint aut quas.
+                    </p>
+                    <h3 class="my-2 text-right text-xl font-semibold fn2">- Smile Foundation</h3>
+                    <div class="mt-4 flex">
+                        <a href="alert.html" class="inline-block rounded-sm font-medium border border-solid cursor-pointer text-center transition-colors duration-200 text-base py-3 px-6 text-white bg-green-400 border-green-400 hover:bg-green-600 hover:border-green-600">
+                            Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-72 max-w-full border border-gray-300 rounded-sm bg-white">
+                <div class="w-full h-48">
+                    <img src="../images/image6.png" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6">
+                    <h5 class="text-2xl font-medium fn1">Clothes for teenage girls</h5>
+                    <p class="mt-2 fn3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore officiis eius similique possimus sint aut quas..
+                    </p>
+                    <h3 class="my-2 text-right text-xl font-semibold fn2">- Smile Foundation</h3>
+                    <div class="mt-4 flex">
+                        <a href="alert.html" class="inline-block rounded-sm font-medium border border-solid cursor-pointer text-center transition-colors duration-200 text-base py-3 px-6 text-white bg-green-400 border-green-400 hover:bg-green-600 hover:border-green-600">
+                            Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-72 max-w-full border border-gray-300 rounded-sm bg-white">
+                <div class="w-full h-48">
+                    <img src="../images/image6.png" class="w-full h-full object-cover" />
+                </div>
+                <div class="p-6">
+                    <h5 class="text-2xl font-medium fn1">Food for infants</h5>
+                    <p class="mt-2 fn3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum dolore officiis eius similique possimus sint aut quas.
+                    </p>
+                    <h3 class="my-2 text-right text-xl font-semibold fn2">- Smile Foundation</h3>
+                    <div class="mt-4 flex">
+                        <a href="alert.html"z class="inline-block rounded-sm font-medium border border-solid cursor-pointer text-center transition-colors duration-200 text-base py-3 px-6 text-white bg-green-400 border-green-400 hover:bg-green-600 hover:border-green-600">
+                            Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 bg-opacity-80 mt-12 h-full w-full" id="add-modal">
+        <div class="max-w-screen-xl min-h-screen bg-white-100 text-gray-800 antialiased px-2 py-4 flex flex-col justify-center sm:py-12">
+            <div class="relative py-2 sm:max-w-xl mx-auto text-center">
+                <span class="text-2xl font-semibold">Add Requirements of the NGO</span>
+                <div class="relative mt-4 bg-white shadow-md sm:rounded-lg text-left py-8 px-8">
+                    <label class="block font-semibold">Needs<label>
+                    <input type="text" id="needs" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-gray-600 rounded-md">
+                    <label class="block mt-5 font-semibold">Name of NGO<label>
+                    <input type="text" id="ngo" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-black-600 rounded-md">
+                    <label class="block mt-5 font-semibold">Desciption<label>
+                    <input type="text" id="des" class="border w-full h-3 px-3 py-4 mt-1 hover:outline-none focus:outline-none focus:ring-1 focus:ring-gray-600 rounded-md">
+                    <div class="flex flex-row mt-5">
+                        <button id="addneeds" class="mx-4 bg-orange-500 text-white w-full p-2 rounded-lg">Add Need</button>
+                        <button id="close" class="mx-4 bg-orange-500 text-white w-full p-2 rounded-lg">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full py-14">
+        <div class="max-w-screen-xl mt-12 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+            <div class="flex flex-col w-full">
+                <h3 class="text-3xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed fn1">Most Popular Causes</h3>
+                <div class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+                    <div class="flex flex-col text-left">
+                        <div class="">
+                            <img src="../images/image6.png" alt="">
+                        </div>
+                        <div class="p-4 border-2 border-gray-500 border-t-0">
+                            <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                                <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 85%"> 85%</div>
+                            </div>
+                            <div class="flex flex-col my-4">
+                                <div class="flex flex-row justify-between text-gray-500">
+                                    <span>Raised:</span>
+                                    <span>Goal:</span>
+                                </div>
+                                <div class="flex flex-row justify-between text-2xl font-semibold text-green-600">
+                                    <span>$30,000</span>
+                                    <span>$50,000</span>
+                                </div>
+                            </div>
+                            <h2 class="text-xl text-black-600 font-medium capitalize fn-4">Help children to get food</h2>
+                            <p class="mt-2 mb-4 fn-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur error quo omnis eius est, ipsam voluptatibus obcaecati.</p>
+                            <button class="py-2 lg:py-3 px-6 lg:px-8 text-white-500 font-semibold rounded-sm bg-orange-500 hover:shadow-orange-md transition-all outline-none undefined">
+                                <a href="alert.html"> Donate Now</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-left">
+                        <div class="">
+                            <img src="../images/image6.png" alt="">
+                        </div>
+                        <div class="p-4 border-2 border-gray-500 border-t-0">
+                            <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                                <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 70%"> 70%</div>
+                            </div>
+                            <div class="flex flex-col my-4">
+                                <div class="flex flex-row justify-between text-gray-500">
+                                    <span>Raised:</span>
+                                    <span>Goal:</span>
+                                </div>
+                                <div class="flex flex-row justify-between text-2xl font-semibold text-green-600">
+                                    <span>$30,000</span>
+                                    <span>$50,000</span>
+                                </div>
+                            </div>
+                            <h2 class="text-xl text-black-600 font-medium capitalize fn-4">Help children to get food</h2>
+                            <p class="mt-2 mb-4 fn-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur error quo omnis eius est, ipsam voluptatibus obcaecati.</p>
+                            <button class="py-2 lg:py-3 px-6 lg:px-8 text-white-500 font-semibold rounded-sm bg-orange-500 hover:shadow-orange-md transition-all outline-none undefined">
+                                <a href="alert.html"> Donate Now</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex flex-col text-left">
+                        <div class="">
+                            <img src="../images/image6.png" alt="">
+                        </div>
+                        <div class="p-4 border-2 border-gray-500 border-t-0">
+                            <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+                                <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 60%"> 60%</div>
+                            </div>
+                            <div class="flex flex-col my-4">
+                                <div class="flex flex-row justify-between text-gray-500">
+                                    <span>Raised:</span>
+                                    <span>Goal:</span>
+                                </div>
+                                <div class="flex flex-row justify-between text-2xl font-semibold text-green-600">
+                                    <span>$30,000</span>
+                                    <span>$50,000</span>
+                                </div>
+                            </div>
+                            <h2 class="text-xl text-black-600 font-medium capitalize fn-4">Help children to get food</h2>
+                            <p class="mt-2 mb-4 fn-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur error quo omnis eius est, ipsam voluptatibus obcaecati.</p>
+                            <button class="py-2 lg:py-3 px-6 lg:px-8 text-white-500 font-semibold rounded-sm bg-orange-500 hover:shadow-orange-md transition-all outline-none undefined">
+                                <a href="alert.html"> Donate Now</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>         
+        </div>
+    </div>
+
+    <div class="max-w-screen-xl mt-8 mb-6 sm:mt-12 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto">
+        <h2 class="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 text-center fn1">We Believe that We can Save <br> More Lifes with You</h2>
+        <div class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-4 pb-4 my-8">
+            <div class="flex w-full justify-end mt-8">
+                <div class="h-full w-full p-4">
+                    <img src="../images/image9.webp" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
+                <h3 class="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600 fn4"> Join us and get involved!</h3>
+                <p class="my-2 text-black-500 fn2">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum sunt eveniet nobis doloribus accusamus aliquid voluptatem quisquam libero, tempore vero ut iste esse, excepturi quae quasi. Nemo dolores possimus tempora?
+                </p>
+                <button class="py-3 lg:py-4 mt-4 px-12 lg:px-16 text-white-500 font-semibold rounded-lg bg-orange-500 hover:shadow-orange-md transition-all outline-none undefined">
+                    <a href="./index.html" class="fn1" >Join Now</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-100 pt-8">
+        <div class="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
+            <div class="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start">
+                <div class="col-start-1 col-end-2 flex items-center">
+                    <img class="h-12 w-12" src="../images/logo.png" alt="">
+                    <h3 class="text-black-600 mx-4 font-medium text-lg fn1">CO-IN-DO-IN</h3>
+                </div>
+                <p class="mt-4 mb-4 fn2">Lets Connect India and donate India so as make this world a heaven for all.</p>
+                <div class="flex w-full mt-2 mb-8 -mx-2">
+                    <div class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <div class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="mx-2 bg-white-500 rounded-full h-10 w-10 items-center justify-center flex p-2 hover:bg-gray-800 text-gray-800 hover:text-white cursor-pointer shadow-md">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
+                <p class="text-black-600 font-medium text-lg fn4">COMPANY</p>
+                <ul class="text-black-500 ">
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4" >About</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Carrers</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Claims</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Support</li>
+                </ul>
+            </div>   
+            <div class="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
+                <p class="text-black-600 font-medium text-lg fn4">LEGAL</p>
+                <ul class="text-black-500 ">
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Privacy Policy</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Licensing</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Terms & <br> Conditions</li>
+                </ul>
+            </div>  
+            <div class="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
+                <p class="text-black-600 font-medium text-lg fn4">SUPPORT</p>
+                <ul class="text-black-500 ">
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Help Center</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Contact Us</li>
+                    <li class="my-2 hover:text-orange-500 cursor-pointer transition-all fn4">Blog</li>
+                </ul>
+            </div>     
+        </div>
+        <div class="text-center text-gray-700 p-8 mt-8" style="background: rgb(0, 0, 0, 0.1);">
+            © 2022 Copyright: <a class="text-gray-800 fn1" href="#" >CO-IN-DO-IN</a>
+        </div>
+    </div>
+<script src="./donate.js"></script>
+</body>
+
+</html>

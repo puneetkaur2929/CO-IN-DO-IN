@@ -83,8 +83,8 @@ function authenticateuser(){
       let dbpass=snapshot.val().password;
       if(dbpass===pass.value){
           login(snapshot.val());
-        // alert("Okay ")
-        console.log(snapshot.val());
+        // // alert("Okay ")
+        // console.log(snapshot.val());
       }
       else{
           alert("Invalid Registered Name or Password");
