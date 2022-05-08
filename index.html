@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./images//logo.png">
     <title>CO-IN-DO-IN</title>
@@ -35,7 +36,7 @@
 
     <div class="max-w-screen-xl mt-20 px-8 xl:px-16 mx-auto">
         <div class="grid grid-flow-row sm:grid-flow-col grid-rows-2 md:grid-rows-1 sm:grid-cols-2 gap-8 py-6 sm:py-16">
-            <div class="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
+            <div data-aos="fade-right" class="flex flex-col justify-center items-start row-start-2 sm:row-start-1">
                 <h1 class="text-3xl lg:text-4xl xl:text-5xl font-medium text-black-600 leading-normal fn1">
                     Give a helping hand <br> To those who needs
                 </h1>
@@ -47,7 +48,7 @@
                     <a href="./donate.html"> Donate Now</a>
                 </button>
             </div>
-            <div class="flex w-full">
+            <div data-aos="fade-left" class="flex w-full">
                 <div class="h-full w-full">
                     <img src="./images/image1.png" alt="">
                 </div>
@@ -56,7 +57,7 @@
         <div class="relative w-full flex bg-gradient-to-b from-gray-100 to-gray-200">
             <div
                 class="rounded-lg w-full grid grid-flow-row sm:grid-flow-row grid-cols-1 sm:grid-cols-3 py-9 divide-y-2 sm:divide-y-0 sm:divide-x-2 divide-gray-100 bg-white-500 z-10">
-                <div
+                <div data-aos="flip-up"
                     class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0">
                     <div class="flex mx-auto w-40 sm:w-auto">
                         <div class="flex items-center justify-center bg-orange-200 h-12 w-12 mr-6 rounded-full">
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                 </div>
-                <div
+                <div data-aos="flip-up"
                     class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0">
                     <div class="flex mx-auto w-40 sm:w-auto">
                         <div class="flex items-center justify-center bg-orange-200 w-12 h-12 mr-6 rounded-full">
@@ -81,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <div
+                <div data-aos="flip-up"
                     class="flex items-center justify-start sm:justify-center py-4 sm:py-6 w-8/12 px-4 sm:w-auto mx-auto sm:mx-0">
                     <div class="flex mx-auto w-40 sm:w-auto">
                         <div class="flex items-center justify-center bg-orange-200 w-12 h-12 mr-6 rounded-full">
@@ -100,14 +101,14 @@
     <div class="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto">
         <div class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 py-8 my-12">
             <div class="flex w-full justify-end mt-8">
-                <div class="h-full w-full p-4">
+                <div class="h-full w-full p-4" data-aos="fade-right">
                     <img src="./images/image2.png" alt="">
                 </div>
             </div>
-            <div class="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12">
-                <h3 class="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600 text-right fn1">What we can
+            <div class="flex flex-col justify-center ml-auto w-full lg:w-9/12" data-aos="fade-left">
+                <h3 class="text-3xl lg:text-4xl font-medium leading-relaxed text-black-600 fn1">What we can
                     <br> do with your help?</h3>
-                <p class="my-2 text-black-500 text-right fn3">
+                <p class="my-2 text-black-500 fn3">
                     This Noble initiative will help so many children reclaim their lives which once they have lost. This
                     will helps
                     them live like other children. Leading happy and healthy life has been obstructed by minimal funding
@@ -124,10 +125,8 @@
             <div class="flex flex-col w-full">
                 <h3 class="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed fn1">Join our
                     action! <br> Together we can make a difference.</h3>
-                <div
-                    class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
-                    <div
-                        class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20">
+                <div class="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
+                    <div data-aos="fade-right" class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20">
                         <div class="lg:p-0 mt-4 lg:mt-16">
                             <img src="./images/image3.png" alt="">
                         </div>
@@ -137,8 +136,7 @@
                             Come be a part of this initiative and contribute in nurturing youth of TOMORROW.
                         </p>
                     </div>
-                    <div
-                        class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20">
+                    <div data-aos="fade-up" class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20">
                         <div class="lg:p-0 mt-4 lg:mt-16">
                             <img src="./images/image4.jpg" alt="">
                         </div>
@@ -149,8 +147,7 @@
                             per your willingness.
                         </p>
                     </div>
-                    <div
-                        class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20">
+                    <div data-aos="fade-left" class="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-6 px-6 lg:px-12 xl:px-20">
                         <div class="lg:p-0 mt-4 lg:mt-16">
                             <img src="./images/image5.jpg" alt="">
                         </div>
@@ -263,6 +260,13 @@
                 signupbtn.href='javascript.signout()';
             }
         }
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
     </script>
 </body>
 
