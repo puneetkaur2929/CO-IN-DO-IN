@@ -137,7 +137,6 @@ function isempty(str){
   return str===null || str.match(/^ *$/)!==null;
 }
 function validation(){
-  let name=/^[a-zA-Z]+$/;
   let mail=/^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$/;
   let year=/^(19|20)[\d]{2,2}$/;
   if(isempty(regname.value) ||  isempty(email.value) ||
@@ -146,11 +145,6 @@ function validation(){
   isempty(spass.value) ||
   isempty(cpass.value) || isempty(state.value) ){
     alert("All fields are mandatory");
-    return false;
-  }
-  if(!name.test(regname.value)){
-    console.log(regname.value);
-    alert("Name should contain alphabets only");
     return false;
   }
   if(!mail.test(email.value)){

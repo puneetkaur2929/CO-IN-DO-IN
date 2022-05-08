@@ -214,7 +214,41 @@
             © 2022 Copyright: <a class="text-gray-800 fn1" href="#">CO-IN-DO-IN</a>
         </div>
     </div>
+    <script>
+        let currentuser = null;
+        let signin = document.getElementById('signin');
+        let signupbtn = document.getElementById('signupbtn');
+        let signup = document.getElementById('signup');
+        function getusername() {
+            let remember = localStorage.getItem('remember');
+            if (remember === 'yes') {
+                currentuser = JSON.parse(localStorage.getItem('user'));
+            }
+            else {
+                currentuser = JSON.parse(sessionStorage.getItem('user'));
+            }
+        }
+        function signout() {
+            sessionStorage.removeItem('user');
+            localStorage.removeItem('user');
+            localStorage.removeItem('remember');
+            window.location = 'index.html';
 
+        }
+        window.onload = function () {
+            getusername();
+            if (currentuser === null) {
+            }
+            else {
+                signin.innerText = "Welcome "+ currentuser.registername +' !';
+                signin.href="#";
+                signup.innerText="";
+                signupbtn.innerText="Sign Out";
+                signupbtn.addEventListener('click',signout);
+                signupbtn.href='javascript.signout()';
+            }
+        }
+    </script>
 </body>
 
 </html>
