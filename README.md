@@ -1,7 +1,7 @@
-<img src="./images/logo.png" alt="Logo of the project" align="right">
+<img src="./images/logo.png" alt="Logo of the project" align="right" height="100px" width="100px">
 
-# CO-IN-DO-IN
-> Connect-India-Donate-India [Link to the website](https://puneetkaur2929.github.io/CO-IN-DO-IN/index.html)
+# CO-IN-DO-IN 
+> Connect-India-Donate-India 
 
 A brief description of your project, what it is used for.
 
