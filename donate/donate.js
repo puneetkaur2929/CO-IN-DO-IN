@@ -95,7 +95,7 @@ function addneed(e) {
 
     const image = document.createElement('div');
     image.className = "w-full h-48";
-    image.innerHTML = "<img src='./images/image6.png' class='w-full h-full object-cover' />";
+    image.innerHTML = "<img src='../images/image6.png' class='w-full h-full object-cover' />";
 
     const info = document.createElement('div');
     info.className = "p-6";

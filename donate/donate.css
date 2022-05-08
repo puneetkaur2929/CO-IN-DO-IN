@@ -97,3 +97,7 @@ width:100%;
 .details h1{
     font-size: 2.1rem;
 }
+#add-modal {
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+}
