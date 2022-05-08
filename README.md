@@ -1,11 +1,8 @@
 <img src="./images/logo.png" alt="Logo of the project" align="right" height="100px" width="100px">
 
 # CO-IN-DO-IN 
-> Connect-India-Donate-India 
-
-A brief description of your project, what it is used for.
-
----
+> Connect-India-Donate-India
+<div> This aims to provide a bridge between <b>Orphanage Homes</b>-yearning for funding  and <b>Citizens</b> -Blessed with resources that are easily shareable</div>
 
 ### TABLE OF CONTENTS
 
@@ -17,7 +14,8 @@ A brief description of your project, what it is used for.
 
 ## DESCRIPTION
 
-detailed description
+This projects is an endevour to aid 'Orphanage homes' in getting their needs fulfilled as and aid in healthy growing of Children residing there.
+With this endevour they can post their needs at one platform through which citizens can get insights into their requirements and contribute in nurturing citizens of tomorrow.
 
 <div align="right">
     <b><a href="#co-in-do-in">⬆️ Back to Top</a></b>
@@ -32,32 +30,26 @@ detailed description
   It also has Register NGO and Sign-In NGO buttons, that directs to the respective forms!
 
 - THE HOME PAGE :
+ Provides insights into the initiative.
   
 
 - THE REGISTRATION FORM and SIGN-IN FORM:
-  
+  Registration form help Orphanage homes in getting acknowledge with the platform.
 
 - THE ABOUT PAGE :
-  
+  Briefly describes how this initiative can help Children in coming in par with the normal children. This provides insights into how you small help can help someone in getting Colorful clothes, Nutritious food , Sound health and most importantly a way to enlighten their lives i.e. Education.
 
 - THE DONATE PAGE :
-  
+  This is the supreme of all this page provides a way to NGOs to post their needs and requirements and help citizens in knowing about their needs in timely manner and contribute as per their will.
 
 - THE CONTACT US PAGE :
-  
+  This page helps you to get connected with the developers to clear Doubts regarding the platform.
 
 <div align="right">
     <b><a href="#co-in-do-in">⬆️ Back to Top</a></b>
 </div>
 
----
-
-## Usage
-
-
-<div align="right">
-    <b><a href="#co-in-do-in">⬆️ Back to Top</a></b>
-</div>
+## Overview of components 
 
 ---
 
